@@ -3,12 +3,13 @@ var dt=3;
 var G=.1;
 var n=7;
 var text1="Robin's Portfolio";
-var text2="F&O = 1810410.99";
-var text3="Foreign = 24787";
-var text4="ETF & Mutal funds = 91159.94";
-var text5="Bonds = 30610";
-var text6="Equity = 235355.64";
-var text7="Crypto = 9036.8";
+var text2="Total Investment :";
+var text3="F&O = 1810410.99";
+var text4="Foreign = 24787";
+var text5="ETF & Mutal funds = 91159.94";
+var text6="Bonds = 30610";
+var text7="Equity = 235355.64";
+var text8="Crypto = 9036.8";
 
 function setup(){
 	var W=windowWidth;
@@ -49,28 +50,31 @@ function draw(){
 	text(text1,width-390,60);
 	fill("#9900cc");
 	textSize(15);
+	ext(text2,width-390,60);
+	fill("#9900cc");
+	textSize(15);
 	textStyle(NORMAL);
-	text(text2,width-370,70,250,500);
+	text(text3,width-370,70,250,500);
 	fill("#009900");
 	textSize(15);
 	textStyle(NORMAL);
-	text(text3,width-370,90,250,500);
+	text(text4,width-370,90,250,500);
 	fill("#e0c870");
 	textSize(15);
 	textStyle(NORMAL);
-	text(text4,width-370,110,250,500);
+	text(text5,width-370,110,250,500);
 	fill("#ffc300");
 	textSize(15);
 	textStyle(NORMAL);
-	text(text5,width-370,130,250,500);
+	text(text6,width-370,130,250,500);
 	fill("#ffffff");
 	textSize(15);
 	textStyle(NORMAL);
-	text(text6,width-370,150,250,500);
+	text(text7,width-370,150,250,500);
 	fill("#990000");
 	textSize(15);
 	textStyle(NORMAL);
-	text(text7,width-370,170,250,500);
+	text(text8,width-370,170,250,500);
 	
 
 	// background(10,10,35);
